@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Syed Muhammad Safiullah — CV</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
+<style>
+  :root{
+    --blue:#0b63b3;        /* Europass-like blue */
+    --dark:#122028;
+    --muted:#6b7b86;
+    --paper:#f7fbff;
+    --accent:#e8f2fb;
+    --maxwidth:1000px;
+  }
+  *{box-sizing:border-box}
+  body{
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #f1f4f7;
+    color:var(--dark);
+    margin:24px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .cv {
+    width:100%;
+    max-width:var(--maxwidth);
+    background: white;
+    border-radius:10px;
+    box-shadow: 0 8px 30px rgba(18,32,40,0.08);
+    overflow:hidden;
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    min-height:640px;
+  }
+
+  /* LEFT SIDEBAR */
+  .sidebar{
+    background: linear-gradient(180deg,var(--blue), #0a57a0);
+    color: white;
+    padding:28px 22px;
+  }
+  .photo {
+    width:100%;
+    height:110px;
+    border-radius:6px;
+    background: rgba(255,255,255,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:18px;
+    font-weight:700;
+    font-size:18px;
+    letter-spacing:0.6px;
+  }
+  .name {
+    font-size:20px;
+    font-weight:700;
+    margin: 6px 0 2px;
+  }
+  .meta { font-size:13px; color:rgba(255,255,255,0.9); margin-bottom:16px; }
+  .section-title {
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:0.8px;
+    margin-top:18px;
+    margin-bottom:8px;
+    color: rgba(255,255,255,0.95);
+  }
+  .contact p, .skills ul, .languages ul, .sports ul {
+    margin:0;
+    font-size:13px;
+    color: rgba(255,255,255,0.92);
+  }
+  .contact p { margin-bottom:8px; line-height:1.45; }
+  .contact a { color:inherit; text-decoration:none; border-bottom:1px dashed rgba(255,255,255,0.08); }
+  .skills ul, .languages ul, .sports ul { padding-left:14px; margin-top:6px; }
+  .skills li, .languages li, .sports li { margin-bottom:6px; list-style: none; padding-left:0; }
+  .skill-pill {
+    display:inline-block;
+    background: rgba(255,255,255,0.12);
+    padding:6px 8px;
+    border-radius:999px;
+    font-size:12px;
+    margin:4px 4px 4px 0;
+  }
+
+  /* MAIN CONTENT */
+  .main { padding:28px 30px; background:var(--paper); }
+  .about {
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    margin-bottom:18px;
+  }
+  .about .title { font-weight:700; color:var(--dark); width:120px; }
+  .about .text { color:var(--dark); line-height:1.5; font-size:14px; }
+
+  .block { background: white; border-radius:8px; padding:16px 18px; margin-bottom:14px; box-shadow: 0 1px 0 rgba(18,32,40,0.03); }
+  h2.block-title { margin:0 0 10px; font-size:15px; color:var(--dark); }
+  .job { display:flex; justify-content:space-between; gap:12px; margin-bottom:10px; }
+  .job .left { max-width:76%; }
+  .job .title { font-weight:600; color:#0b63b3; margin-bottom:4px; }
+  .job .org { font-size:13px; color:var(--muted); margin-bottom:6px; }
+  .job ul { margin:0; padding-left:18px; color:var(--dark); line-height:1.45; font-size:14px; }
+  .edu .meta { font-size:13px; color:var(--muted); margin-bottom:6px; }
+  .two-cols { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+  .small { font-size:13px; color:var(--muted); }
+
+  /* print friendly */
+  @media print{
+    body{margin:0; background:white}
+    .cv{box-shadow:none}
+  }
+
+  /* responsive */
+  @media (max-width:900px){
+    .cv { grid-template-columns: 1fr; }
+    .sidebar { order:2; }
+    .main { order:1; }
+  }
+</style>
+</head>
+<body>
+  <article class="cv" role="document" aria-label="CV — Syed Muhammad Safiullah">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar" aria-labelledby="contact-heading">
+      <div class="photo" aria-hidden="true">PHOTO (paste your photo here)</div>
+
+      <div class="name">Syed Muhammad Safiullah</div>
+      <div class="meta">Electrical Engineering (Computing & AI) — UET Peshawar (student)</div>
+
+      <div class="section-title" id="contact-heading">CONTACT</div>
+      <div class="contact">
+        <p><strong>Address</strong><br>Mohallah Bamozai Minakhel, Lakki Marwat, KPK, Pakistan</p>
+        <p><strong>Email</strong><br><a href="mailto:syedmuhammadsafiullah66636@gmail.com">syedmuhammadsafiullah66636@gmail.com</a></p>
+        <p><strong>Phone</strong><br>(+92) 316-9732375</p>
+        <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/syed-muhammad-safiullah-3b7ba7335" target="_blank" rel="noopener">linkedin.com/in/syed-muhammad-safiullah-3b7ba7335</a></p>
+        <p><strong>Indeed</strong><br><a href="https://profile.indeed.com/p/syedmuhammads-xbv18l3" target="_blank" rel="noopener">profile.indeed.com/p/.../syedmuhammads</a></p>
+      </div>
+
+      <div class="section-title">KEY SKILLS</div>
+      <div class="skills">
+        <!-- Skill pills — edit or remove -->
+        <span class="skill-pill">PLC Programming</span>
+        <span class="skill-pill">Industrial Automation</span>
+        <span class="skill-pill">AutoCAD (2D/3D)</span>
+        <span class="skill-pill">HTML / CSS / JS</span>
+        <span class="skill-pill">Electrical Design</span>
+        <span class="skill-pill">MS Office</span>
+      </div>
+
+      <div class="section-title">LANGUAGES</div>
+      <div class="languages">
+        <ul>
+          <li><strong>Pashto</strong> — Native</li>
+          <li><strong>Urdu</strong> — Read / Write / Speak (Better)</li>
+          <li><strong>English</strong> — Read / Write / Speak (Better)</li>
+          <li><strong>Arabic</strong> — Read / Write (Good)</li>
+          <li><strong>Turkish</strong> — Understand (Very Beginner)</li>
+        </ul>
+      </div>
+
+      <div class="section-title">SPORTS & SOCIETY</div>
+      <div class="sports">
+        <ul>
+          <li>Badminton — District Level (Winner)</li>
+          <li>Cricket (Batsman) — School Level (Runner Up)</li>
+          <li>Member — UET Sports Society</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- ABOUT -->
+      <div class="block about">
+        <div class="title">ABOUT ME</div>
+        <div class="text">
+          <p>
+            Hybrid-focused Electrical Engineering (Computing &amp; AI) student at UET Peshawar with a solid academic foundation
+            and developing industrial experience. Passionate about Electrical Power Automation, Control Systems and integrating
+            programming with industrial solutions. Hands-on exposure to PLC automation, motor control circuits and industrial
+            monitoring during internship at Lucky Cement Limited. Dedicated to continuous learning and applying technical skills
+            to real-world engineering challenges.
+          </p>
+        </div>
+      </div>
+
+      <!-- WORK EXPERIENCE -->
+      <section class="block">
+        <h2 class="block-title">WORK EXPERIENCE</h2>
+
+        <div class="job" aria-label="Internship at Lucky Cement">
+          <div class="left">
+            <div class="title">Management Trainee / Intern — Lucky Cement Limited</div>
+            <div class="org">Nowshera / [City] — <span class="small">Dates: (add start — end)</span></div>
+            <ul>
+              <li>Assisted in PLC ladder logic review, basic programming and troubleshooting for plant automation tasks.</li>
+              <li>Supported motor control circuits inspection, electrical panel checks and preventive maintenance activities.</li>
+              <li>Observed commissioning and testing procedures for sensors, drives and control panels.</li>
+              <li>Helped document maintenance logs and followed HSE safety & work-permit protocols on site.</li>
+              <li>Contributed to small optimization suggestions which helped monitoring & energy-awareness tasks.</li>
+            </ul>
+          </div>
+          <div class="right small" style="text-align:right;">
+            <!-- Right column reserved for dates / location -->
+            <div><strong>Role</strong></div>
+            <div>Internship</div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="block edu">
+        <h2 class="block-title">EDUCATION &amp; TRAINING</h2>
+
+        <div>
+          <div class="job">
+            <div class="left">
+              <div class="title">BSc Electrical Engineering (Computing &amp; AI)</div>
+              <div class="org">University of Engineering &amp; Technology, Peshawar — <span class="small">2024 – Present</span></div>
+              <div class="meta small">Field: Electrical Power & Automation (add final grade/expected graduation year)</div>
+            </div>
+            <div class="right small" style="text-align:right;">
+              <!-- placeholder -->
+              <div><strong>EQF</strong></div>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="left">
+              <div class="title">FSc Pre-Medical (Higher Secondary Certificate)</div>
+              <div class="org">Government Post Graduate College, Lakki Marwat — <span class="small">2021 – 2023</span></div>
+              <div class="meta small">Marks: 957 / 1100 (87%)</div>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="left">
+              <div class="title">Matric (SSC) — Science</div>
+              <div class="org">Faiz Model High School, Lakki Marwat — <span class="small">Year: 2021</span></div>
+              <div class="meta small">Marks: 1068 / 1100 (97.09%)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCHOLARSHIPS & AWARDS -->
+      <section class="block">
+        <h2 class="block-title">SCHOLARSHIPS &amp; AWARDS</h2>
+        <ul>
+          <li>Open merit-based admission at Government Post Graduate College, Lakki Marwat (HSSC).</li>
+          <li>Diya Pakistan Scholarship for HSSC (DiyaPak).</li>
+          <li>1st position in village at HSSC level (2023).</li>
+          <li>Winner — Badminton District Level (2022–2023).</li>
+        </ul>
+      </section>
+
+      <!-- TEST SCORES -->
+      <section class="block two-cols">
+        <div>
+          <h2 class="block-title">TEST SCORES</h2>
+          <p class="small"><strong>NAT-IM (Pre-Medical)</strong> — Roll no: A2460-120026 — Marks: 69 / 100</p>
+          <p class="small"><strong>USAT-M (HEC, Pre-Medical)</strong> — Roll no: 470906 — Score: 52 / 100</p>
+        </div>
+
+        <div>
+          <h2 class="block-title">SPORTS &amp; INTERESTS</h2>
+          <p class="small"><strong>Sports:</strong> Badminton (District Winner), Cricket (School Runner-up)</p>
+          <p class="small"><strong>Hobbies:</strong> Gym workout, Morning walk, Cooking, Sports, Watching movies, Gardening</p>
+        </div>
+      </section>
+
+      <!-- DIGITAL & OTHER SKILLS -->
+      <section class="block">
+        <h2 class="block-title">DIGITAL SKILLS &amp; OTHER SKILLS</h2>
+        <div class="two-cols">
+          <div>
+            <ul>
+              <li>Computer literacy — Better</li>
+              <li>MS Word — Better</li>
+              <li>Excel — Moderate</li>
+              <li>PowerPoint — Better</li>
+              <li>HTML, CSS, JavaScript — Moderate</li>
+              <li>AutoCAD (Electrical & Architectural 2D/3D) — Moderate</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Good communication</li>
+              <li>Strong investigative mind</li>
+              <li>Problem-solving</li>
+              <li>Teamwork</li>
+              <li>Leadership</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER / NOTES -->
+      <div class="block small">
+        <strong>Notes / placeholders:</strong>
+        <ul>
+          <li>Edit dates (internship start/end, university dates) and add exact location if needed.</li>
+          <li>Add final year project, certifications, or references if you want them listed (e.g., "Design and implementation of optimized Battery Management System" if applicable).</li>
+          <li>To include a photo: replace the .photo div background with an &lt;img&gt; tag or set it via CSS.</li>
+        </ul>
+      </div>
+
+    </main>
+  </article>
+</body>
+</html>
